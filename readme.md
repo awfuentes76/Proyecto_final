@@ -10,38 +10,40 @@ Para analizar este cambio, tratamos de entender los factores demográficos y soc
 
 El análisis se realizó utilizando un dataset organizado por secciones censales que contiene las siguientes variables:
 
-- **SECCION**: cada sección censal.
-- **RMH**: renta media por hogar.
-- **PES**: porcentaje de población con estudios superiores.
-- **HAB**: número de habitantes.
-- **LENGUA**: lengua predominante (catalán o castellano) en cada sección censal:
-  - 1. Catalán.
-  - 2. Castellano.
-  - 3. Mixto.
-- **15-19**: habitantes entre 15 y 19 años.
-- **20-29**: habitantes entre 20 y 29 años.
-- **30-39**: habitantes entre 30 y 39 años.
-- **40-49**: habitantes entre 40 y 49 años.
-- **50-59**: habitantes entre 50 y 59 años.
-- **60-69**: habitantes entre 60 y 69 años.
-- **70-MAS**: habitantes de 70 o más años.
-- **HOMBRES**: número de varones.
-- **MUJERES**: número de mujeres.
-- **JUNTS19**: votos a Junts en 2019.
-- **ERC19**: votos a ERC en 2019.
-- **PSC19**: votos a PSC en 2019.
-- **CUP19**: votos a CUP en 2019.
-- **ECP19**: votos a ECP en 2019.
-- **ABSTENCIÓN19**: abstención en 2019.
-- **JUNTS23**: votos a Junts en 2023.
-- **ERC23**: votos a ERC en 2023.
-- **PSC23**: votos a PSC en 2023.
-- **CUP23**: votos a CUP en 2023.
-- **ECP23**: votos a ECP en 2023.
-- **ACTIVEM23**: votos a Activem en 2023.
-- **ARA-PL23**: votos a ARA PL en 2023.
-- **VOX23**: votos a VOX en 2023.
-- **ABSTENCION23**: abstención en 2023.
+| Variable        | Descripción                                                      |
+|-----------------|------------------------------------------------------------------|
+| **SECCION**     | Cada sección censal.                                             |
+| **RMH**         | Renta media por hogar.                                           |
+| **PES**         | Porcentaje de población con estudios superiores.                 |
+| **HAB**         | Número de habitantes.                                            |
+| **LENGUA**      | Lengua predominante (catalán o castellano) en cada sección censal: |
+|                 | 1. Catalán.                                                      |
+|                 | 2. Castellano.                                                   |
+|                 | 3. Mixto.                                                        |
+| **15-19**       | Habitantes entre 15 y 19 años.                                   |
+| **20-29**       | Habitantes entre 20 y 29 años.                                   |
+| **30-39**       | Habitantes entre 30 y 39 años.                                   |
+| **40-49**       | Habitantes entre 40 y 49 años.                                   |
+| **50-59**       | Habitantes entre 50 y 59 años.                                   |
+| **60-69**       | Habitantes entre 60 y 69 años.                                   |
+| **70-MAS**      | Habitantes de 70 o más años.                                     |
+| **HOMBRES**     | Número de varones.                                               |
+| **MUJERES**     | Número de mujeres.                                               |
+| **JUNTS19**     | Votos a Junts en 2019.                                           |
+| **ERC19**       | Votos a ERC en 2019.                                             |
+| **PSC19**       | Votos a PSC en 2019.                                             |
+| **CUP19**       | Votos a CUP en 2019.                                             |
+| **ECP19**       | Votos a ECP en 2019.                                             |
+| **ABSTENCION19**| Abstención en 2019.                                              |
+| **JUNTS23**     | Votos a Junts en 2023.                                           |
+| **ERC23**       | Votos a ERC en 2023.                                             |
+| **PSC23**       | Votos a PSC en 2023.                                             |
+| **CUP23**       | Votos a CUP en 2023.                                             |
+| **ECP23**       | Votos a ECP en 2023.                                             |
+| **ACTIVEM23**   | Votos a Activem en 2023.                                         |
+| **ARA-PL23**    | Votos a ARA PL en 2023.                                          |
+| **VOX23**       | Votos a VOX en 2023.                                             |
+| **ABSTENCION23**| Abstención en 2023.                                              |
 
 ## Estructura del Proyecto
 
@@ -67,7 +69,17 @@ El análisis se realizó utilizando un dataset organizado por secciones censales
 
 6. **Conclusiones**
    - Resumen de los hallazgos clave del análisis.
-   - Reflexión sobre las implicaciones políticas y sociológicas del cambio electoral en Olot.
+   - De todo el trabajo anterior podemos extraer varias conclusiones. Estas, dado que nos enfrentamos a un fenómeno tan complejo y potencialmente volátil como es el comportamiento electoral, tienen necesariamente un margen de incertidumbre, que nos lleva a mantener una necesaria cautela. No obstante, creemos que hay varias realidades que se pueden señalar:
+
+     - La CUP ha demostrado tener una base electoral leal, lo cual, combinado con el gran aumento de la abstención en las elecciones de 2023, constituye una parte importante de su éxito.
+
+     - En distinta medida, la CUP ha conseguido atraer votantes de las fuerzas nacionalistas hegemónicas. Es un fenómeno interesante, dada la distancia puramente ideológica existente entre ambos grupos (en especial en lo referente a Junts). Esto sugiere, en el ámbito local, una campaña y unos candidatos bien ajustados a la realidad olotina. En una clave más nacional, la CUP puede haber conseguido atraer en Olot a votantes decepcionados con la deriva posterior al 1 de octubre de 2017; algo que, ciertamente, no se ha producido en otros lugares, lo que nos obliga a ser especialmente cuidadosos con esta hipótesis.
+
+     - Los datos indican que la CUP también ha conseguido atraer a votantes que se abstuvieron en 2019, lo que puede indicar un potencial de crecimiento, así como cierta capacidad de ilusionar a personas no especialmente interesadas por la política.
+
+     - En el proyecto hemos dado importancia a la variable lengua, ya que suele ser un buen predictor del comportamiento electoral. La CUP ha conseguido un ascenso especialmente importante en las zonas catalanoparlantes, algo que es a la vez una fortaleza y una potencial debilidad: fortaleza en tanto que puede continuar erosionando a los partidos nacionalistas hegemónicos; debilidad en lo que respecta a lo que sería esperable en una formación situada tan a la izquierda, que debería ser capaz de superar las barreras étnico-lingüísticas.
+
+     - De todo lo anterior, se deduce una enseñanza no por repetida menos importante: en las zonas en las que existe una disputa por la cuestión nacional, esta lo atraviesa todo, lo que hace que el análisis, necesariamente, vaya más allá del eje izquierda-derecha; lo que implica que el análisis preste atención a los indicadores asociados a la pertenencia nacional o étnica.
 
 ## Modelos y Métodos
 
@@ -76,30 +88,6 @@ El análisis se realizó utilizando un dataset organizado por secciones censales
 - **Inferencia Ecológica**: Implementada con la librería `lphom` para analizar las transferencias de voto.
 - **Modelos de Machine Learning**: Se exploraron modelos como `XGBoost`, `Random Forest`, `Elastic Net`, y otros, para predecir cambios en el voto, aunque con resultados variados en términos de eficacia.
 
-## Resultados
-
-Los resultados sugieren que los factores demográficos, especialmente la lengua predominante, han jugado un papel significativo en el cambio electoral observado. La inferencia ecológica reveló importantes transferencias de voto hacia la CUP, que fue clave para su ascenso en las elecciones de 2023.
-
-## Conclusiones
-
-El proyecto demuestra la importancia de analizar los cambios electorales desde múltiples perspectivas, utilizando tanto técnicas tradicionales de análisis como métodos más avanzados de machine learning e inferencia ecológica. Este enfoque holístico proporciona una visión más completa de los factores que influyen en los resultados electorales.
-
-## Requisitos
-
-- Python 3.x
-- Librerías: `pandas`, `statsmodels`, `sklearn`, `xgboost`, `rpy2`, `matplotlib`, `seaborn`
-- R con `lphom`
-
-## Ejecución
-
-Para ejecutar el análisis completo, sigue estos pasos:
-
-1. **Preparación del entorno**: Instala las dependencias necesarias.
-2. **Carga del dataset**: Carga el dataset y realiza una exploración inicial.
-3. **Análisis y modelización**: Ejecuta los scripts de análisis exploratorio, clustering, regresión y machine learning.
-4. **Inferencia ecológica**: Utiliza el script correspondiente para realizar la inferencia ecológica con la librería `lphom`.
-
 ## Contacto
 
 Para cualquier consulta sobre este proyecto, puedes contactar con el autor a través de [tu email o contacto].
-
