@@ -90,4 +90,4 @@ El análisis se realizó utilizando un dataset organizado por secciones censales
 
 ## Contacto
 
-Para cualquier consulta sobre este proyecto, puedes contactar con el autor a través de [tu email o contacto].
+Para cualquier consulta sobre este proyecto, puedes contactar con el autor a través de awfuentes76@gmail.com.
