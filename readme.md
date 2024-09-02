@@ -79,7 +79,7 @@ El análisis se realizó utilizando un dataset organizado por secciones censales
 
      - En el proyecto hemos dado importancia a la variable lengua, ya que suele ser un buen predictor del comportamiento electoral. La CUP ha conseguido un ascenso especialmente importante en las zonas catalanoparlantes, algo que es a la vez una fortaleza y una potencial debilidad: fortaleza en tanto que puede continuar erosionando a los partidos nacionalistas hegemónicos; debilidad en lo que respecta a lo que sería esperable en una formación situada tan a la izquierda, que debería ser capaz de superar las barreras étnico-lingüísticas.
 
-     - De todo lo anterior, se deduce una enseñanza no por repetida menos importante: en las zonas en las que existe una disputa por la cuestión nacional, esta lo atraviesa todo, lo que hace que el análisis, necesariamente, vaya más allá del eje izquierda-derecha; lo que implica que el análisis preste atención a los indicadores asociados a la pertenencia nacional o étnica.
+     - De todo lo anterior, se deduce una enseñanza no por repetida menos importante: en las zonas en las que existe una disputa por la cuestión nacional, esta lo atraviesa todo, lo que hace que el análisis, necesariamente, vaya más allá del eje izquierda-derecha; esta realidad implica la obligación de que el análisis preste atención a los indicadores asociados a la pertenencia nacional o étnica.
 
 ## Modelos y Métodos
 
